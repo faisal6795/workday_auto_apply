@@ -1,0 +1,100 @@
+{
+  "settings": {
+    "userDataDir": "./browser-profile",
+    "headless": false,
+    "slowMo": 80,
+    "resumePath": "./my_resume.pdf",
+    "pauseOnReview": true,
+    "actionTimeout": 15000,
+    "navigationTimeout": 60000
+  },
+  "personalInfo": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "phone": "555-123-4567",
+    "phoneDeviceType": "Mobile",
+    "addressLine1": "123 Innovation Way",
+    "city": "San Francisco",
+    "state": "California",
+    "postalCode": "94105",
+    "country": "United States of America"
+  },
+  "workHistory": [
+    {
+      "company": "Tech Innovators Inc",
+      "title": "Senior Software Engineer",
+      "location": "San Francisco, CA",
+      "currentlyWorkHere": true,
+      "startDate": {
+        "month": "03",
+        "year": "2022"
+      },
+      "endDate": {
+        "month": "",
+        "year": ""
+      },
+      "description": "Architected distributed microservices handling 20M+ daily events. Spearheaded automation initiatives reducing build times by 40%."
+    },
+    {
+      "company": "CloudScale Solutions",
+      "title": "Software Engineer",
+      "location": "San Jose, CA",
+      "currentlyWorkHere": false,
+      "startDate": {
+        "month": "06",
+        "year": "2019"
+      },
+      "endDate": {
+        "month": "02",
+        "year": "2022"
+      },
+      "description": "Engineered REST APIs with Node.js and Python. Implemented automated integration test suites and CI/CD pipelines with GitHub Actions."
+    }
+  ],
+  "education": [
+    {
+      "school": "University of California, Berkeley",
+      "degree": "Bachelor of Science",
+      "fieldOfStudy": "Computer Science",
+      "gpa": "3.85",
+      "startDate": {
+        "year": "2015"
+      },
+      "endDate": {
+        "year": "2019"
+      }
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Playwright",
+    "Python",
+    "Docker",
+    "AWS",
+    "React",
+    "CI/CD",
+    "Microservices"
+  ],
+  "webLinks": {
+    "linkedin": "https://www.linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "portfolio": "https://johndoe.dev"
+  },
+  "voluntaryDisclosures": {
+    "gender": "Decline to identify",
+    "raceEthnicity": "Decline to identify",
+    "veteranStatus": "I am not a protected veteran",
+    "disabilityStatus": "I do not wish to answer"
+  },
+  "commonQuestions": {
+    "authorizedToWork": "Yes",
+    "requireSponsorship": "No",
+    "previouslyEmployed": "No",
+    "noticePeriod": "2 weeks",
+    "desiredSalary": "150000",
+    "howDidYouHear": "LinkedIn"
+  }
+}
