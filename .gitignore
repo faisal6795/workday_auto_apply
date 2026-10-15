@@ -3,3 +3,4 @@ browser-profile/
 *.log
 .DS_Store
 my_resume.pdf
+config.json
